@@ -1,0 +1,64 @@
+{
+  "packages":
+  [
+    {  
+      "name": "PMM-03XX-CPUs-SWITCHES",
+      "maintainer": "PMM LLC",
+      "websiteURL": "PMM-USA.COM",
+      "email" : "info@pmm-usa.us",
+      "platforms":
+      [
+        { 
+          "name": "PMM-03XX-CPUs-SWITCHES", 
+          "architecture": "samd",
+          "version": "0.1.1",
+          "category": "Contributed",
+          "url": "https://github.com/Israr-Engineering/PMM-03XX-CPUs-SWITCHES/blob/main/custom_Board/PMM.zip?raw=true",
+          "archiveFileName": "PMM.zip",
+          "checksum": "SHA-256:8370F2D08593500178EC79EC718ED56E821BB5EB4D94B34F598C216346E22EC7",
+          "size": "8574686",
+          "boards": [
+
+            
+            {"name": "PMM0304V1"},
+            {"name": "PMM0304V2"},
+            {"name": "PMM0305"}
+            
+
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
